@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DELTA Academy Kharan | English Language & Computer Academy</title>
+  <meta name="description" content="Official website of DELTA English Language & Computer Academy in Kharan, Balochistan. Offering English communication, academic test prep, and computer literacy." />
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==========================================
+       1. TOP NAVBAR BRANDING & NAVIGATION
+       ========================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <!-- Top-Left Compact Navbar Brand -->
+      <a href="#hero" class="brand-logo" aria-label="DELTA Academy Home">
+        <img src="assets/images/delta-logo.png" alt="DELTA Academy Logo" id="nav-logo" />
+        <span class="brand-name-compact">DELTA ACADEMY</span>
+      </a>
+
+      <!-- Navigation Controls -->
+      <div class="nav-controls">
+        <!-- Animated Three-Dot Navigation Button (Visible on Mobile & Desktop) -->
+        <button class="threedot-btn" id="threedot-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="dot dot-1"></span>
+          <span class="dot dot-2"></span>
+          <span class="dot dot-3"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Dropdown Navigation Menu -->
+    <nav class="nav-dropdown" id="nav-dropdown" aria-label="Main Dropdown Navigation">
+      <div class="nav-dropdown-content">
+        <a href="#hero" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          Home
+        </a>
+        <a href="#about" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          About
+        </a>
+        <a href="#courses" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Courses
+        </a>
+        <a href="#teachers" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          Faculty
+        </a>
+        <a href="#faq" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          FAQ
+        </a>
+        <div class="nav-dropdown-divider"></div>
+        <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-dropdown-cta">
+          Enroll Now
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==========================================
+       2. HERO SECTION — MAIN FIRST IMPRESSION
+       ========================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow"></div>
+        <h1 class="hero-title">DELTA English Language & Computer Academy</h1>
+        <p class="hero-description">
+        Empowering students of Kharan and surrounding areas through practical English communication skills, computer literacy, academic excellence, and competitive exam preparation.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#courses" class="btn btn-primary">Explore Courses</a>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-hero">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>Enroll Now</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 3. HERO BRAND INFORMATION CARD -->
+      <div class="hero-graphic">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <img src="assets/images/delta-logo.png" alt="DELTA Logo" class="hero-card-logo" />
+            <div>
+              <div class="hero-card-title">DELTA ACADEMY</div>
+              <div class="hero-card-sub">Kharan, Balochistan</div>
+            </div>
+          </div>
+          <div class="hero-card-features">
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Spoken English & Grammar</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>IELTS & Competitive Exam Prep</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Cadet College Entry Tests</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Computer Literacy & Office Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. ABOUT SECTION
+       ========================================== -->
+  <section class="about section-padding" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About DELTA Academy</h2>
+        <p class="section-subtitle">Building strong academic foundations and practical skills in Balochistan</p>
+      </div>
+
+      <div class="about-card">
+        <p class="about-text">
+          DELTA English Language & Computer Academy was established with the vision of providing quality, affordable, and practical education to the students of Kharan and surrounding areas.
+        </p>
+        <p class="about-text">
+          The academy is committed to developing students' English communication skills, computer literacy, academic excellence, and personal confidence.
+        </p>
+        <p class="about-text">
+          Our goal is to prepare learners for school, college, competitive examinations, higher education, and professional careers through modern teaching methods and a supportive learning environment.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. VISION & MISSION
+       ========================================== -->
+  <section class="vision-mission section-padding" id="vision-mission">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Vision & Mission</h2>
+        <p class="section-subtitle">Guiding principles behind DELTA Academy's approach to education</p>
+      </div>
+
+      <div class="vm-grid">
+        <!-- CARD 1: Our Vision -->
+        <div class="vm-card">
+          <div class="vm-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </div>
+          <h3 class="vm-title">Our Vision</h3>
+          <p class="vm-quote-text">
+            To become one of the leading educational institutions in Balochistan by developing confident, knowledgeable, and skilled individuals who contribute positively to society.
+          </p>
+        </div>
+
+        <!-- CARD 2: Our Mission -->
+        <div class="vm-card">
+          <div class="vm-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="6"></circle>
+              <circle cx="12" cy="12" r="2"></circle>
+            </svg>
+          </div>
+          <h3 class="vm-title">Our Mission</h3>
+          <ul class="vm-list">
+            <li>
+              <svg class="vm-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Provide high-quality English language education.</span>
+            </li>
+            <li>
+              <svg class="vm-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Promote computer literacy and digital skills.</span>
+            </li>
+            <li>
+              <svg class="vm-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Prepare students for competitive examinations and academic success.</span>
+            </li>
+            <li>
+              <svg class="vm-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Develop communication skills, confidence, leadership, and critical thinking.</span>
+            </li>
+            <li>
+              <svg class="vm-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Create a positive and student-friendly learning environment.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. WHY CHOOSE DELTA
+       ========================================== -->
+  <section class="why section-padding" id="why" style="background-color: var(--white);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Choose DELTA</h2>
+        <p class="section-subtitle">Supporting students through knowledge, practical skills and personal development</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 01-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+          </div>
+          <h3 class="why-title">QUALITY EDUCATION</h3>
+          <p class="why-desc">Structured learning focused on conceptual understanding and academic development.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3 class="why-title">PRACTICAL LEARNING</h3>
+          <p class="why-desc">Learning activities designed to connect knowledge with practical application.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+          </div>
+          <h3 class="why-title">ENGLISH COMMUNICATION</h3>
+          <p class="why-desc">Focused development of English speaking, grammar, vocabulary and communication skills.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="why-title">COMPUTER LITERACY</h3>
+          <p class="why-desc">Building essential digital skills for academic and professional environments.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          </div>
+          <h3 class="why-title">ACADEMIC PREPARATION</h3>
+          <p class="why-desc">Preparation for school studies, Science subjects and Cadet College entry examinations.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="why-title">CONFIDENCE & PERSONAL GROWTH</h3>
+          <p class="why-desc">Encouraging communication, confidence, critical thinking and leadership development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. COURSES SECTION
+       ========================================== -->
+  <section class="courses section-padding" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Courses & Programs</h2>
+        <p class="section-subtitle">Learning opportunities designed to support academic, language and practical skill development</p>
+      </div>
+
+      <div class="courses-grid">
+        <!-- 1. Spoken English -->
+        <div class="course-card">
+          <div class="course-card-body">
+            <div class="course-header">
+              <h4 class="course-name">Spoken English</h4>
+            </div>
+            <p class="course-desc">Pre-Beginner to Advanced levels, with focus on fluency, vocabulary and confident communication.</p>
+          </div>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-course-enroll">
+            Enroll Now
+          </a>
+        </div>
+
+        <!-- 2. English Grammar -->
+        <div class="course-card">
+          <div class="course-card-body">
+            <div class="course-header">
+              <h4 class="course-name">English Grammar</h4>
+            </div>
+            <p class="course-desc">Grammar fundamentals including sentence formation, tenses and practical grammatical accuracy.</p>
+          </div>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-course-enroll">
+            Enroll Now
+          </a>
+        </div>
+
+        <!-- 3. IELTS Preparation -->
+        <div class="course-card">
+          <div class="course-card-body">
+            <div class="course-header">
+              <h4 class="course-name">IELTS Preparation</h4>
+            </div>
+            <p class="course-desc">Preparation focused on Listening, Reading, Writing and Speaking skills.</p>
+          </div>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-course-enroll">
+            Enroll Now
+          </a>
+        </div>
+
+        <!-- 4. Cadet College Entry Preparation -->
+        <div class="course-card">
+          <div class="course-card-body">
+            <div class="course-header">
+              <h4 class="course-name">Cadet College Entry Preparation</h4>
+            </div>
+            <p class="course-desc">Preparation for JVT, BRC and Cadet College entry examinations.</p>
+          </div>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-course-enroll">
+            Enroll Now
+          </a>
+        </div>
+
+        <!-- 5. Science Subjects -->
+        <div class="course-card">
+          <div class="course-card-body">
+            <div class="course-header">
+              <h4 class="course-name">Science Subjects</h4>
+            </div>
+            <p class="course-desc">Physics, Chemistry, Biology and Mathematics with focus on concepts and academic preparation.</p>
+          </div>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-course-enroll">
+            Enroll Now
+          </a>
+        </div>
+
+        <!-- 6. Calligraphy -->
+        <div class="course-card">
+          <div class="course-card-body">
+            <div class="course-header">
+              <h4 class="course-name">Calligraphy</h4>
+            </div>
+            <p class="course-desc">Handwriting improvement and artistic penmanship for English and Urdu scripts.</p>
+          </div>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-course-enroll">
+            Enroll Now
+          </a>
+        </div>
+
+        <!-- 7. DIT — Diploma in Information Technology -->
+        <div class="course-card">
+          <div class="course-card-body">
+            <div class="course-header">
+              <h4 class="course-name">DIT — Diploma in Information Technology</h4>
+              <span class="badge-starting-soon">STARTING SOON</span>
+            </div>
+            <p class="course-desc">Computer literacy, Microsoft Office, touch typing, internet skills and office automation.</p>
+          </div>
+          <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-course-enroll">
+            Enroll Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. ACADEMY LEADERSHIP
+       ========================================== -->
+  <section class="leadership section-padding" id="leadership">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Academy Leadership</h2>
+        <p class="section-subtitle">Leadership committed to accessible, practical and quality education</p>
+      </div>
+
+      <div class="leadership-grid">
+        <!-- Chairman -->
+        <div class="leadership-card">
+          <span class="leadership-role">CHAIRMAN</span>
+          <h3 class="leadership-name">Asif Mureed Baloch</h3>
+          <p class="leadership-desc">
+            As the Chairman of DELTA English Language & Computer Academy, Asif Mureed Baloch is dedicated to promoting quality education in Balochistan. His vision is to provide accessible, practical, and modern education that empowers students to achieve academic and professional success.
+          </p>
+        </div>
+
+        <!-- Director -->
+        <div class="leadership-card">
+          <span class="leadership-role">DIRECTOR</span>
+          <h3 class="leadership-name">Allah Noor Baloch</h3>
+          <p class="leadership-desc">
+            Allah Noor Baloch oversees the academy's administration and academic operations. He is committed to maintaining high educational standards and creating a supportive environment where every student can reach their full potential.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. DEDICATED FACULTY
+       ========================================== -->
+  <section class="teachers section-padding" id="teachers">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Dedicated Faculty</h2>
+        <p class="section-subtitle">Meet our faculty members and educators</p>
+      </div>
+
+      <div class="teachers-grid">
+        <!-- Educator 1 -->
+        <div class="teacher-card">
+          <div class="teacher-image-wrapper">
+            <img src="assets/images/asif-mureed-baloch.png" alt="Asif Mureed Baloch" class="teacher-image" id="img-asif" />
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">ASIF MUREED BALOCH</h3>
+            <div class="teacher-subject">English Language & Grammar, Science Subjects</div>
+            <span class="teacher-qualification">M.A. (History)</span>
+            <p class="teacher-desc">
+              An experienced educator committed to helping students build strong academic foundations and practical English communication skills.
+            </p>
+          </div>
+        </div>
+
+        <!-- Educator 2 -->
+        <div class="teacher-card">
+          <div class="teacher-image-wrapper">
+            <img src="assets/images/allah-noor-baloch.png" alt="Allah Noor Baloch" class="teacher-image" id="img-allahnoor" />
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">ALLAH NOOR BALOCH</h3>
+            <div class="teacher-subject">Administration & Student Affairs</div>
+            <span class="teacher-qualification">M.Sc., JET (English Teacher)</span>
+            <p class="teacher-desc">
+              A dedicated education professional responsible for academic management and ensuring quality learning experiences for students.
+            </p>
+          </div>
+        </div>
+
+        <!-- Educator 3 -->
+        <div class="teacher-card">
+          <div class="teacher-image-wrapper">
+            <img src="assets/images/shahid-gull.png" alt="Shahid Gull" class="teacher-image" id="img-shahid" />
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">SHAHID GULL</h3>
+            <div class="teacher-subject">English Language</div>
+            <p class="teacher-desc">
+              An energetic and experienced teacher with expertise in English language teaching, focused on improving students' speaking, grammar, and communication skills.
+            </p>
+          </div>
+        </div>
+
+        <!-- Educator 4 -->
+        <div class="teacher-card">
+          <div class="teacher-image-wrapper">
+            <img src="assets/images/ibad-kubdani.png" alt="Ibad Kubdani" class="teacher-image" id="img-ibad" />
+          </div>
+          <div class="teacher-info">
+            <h3 class="teacher-name">IBAD KUBDANI</h3>
+            <div class="teacher-subject">English Language</div>
+            <p class="teacher-desc">
+              A dedicated English language instructor committed to helping students achieve fluency and confidence through effective teaching methods.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. FREQUENTLY ASKED QUESTIONS
+       ========================================== -->
+  <section class="faq section-padding" id="faq" style="background-color: var(--white);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Find useful information about DELTA Academy, its programs and contact details</p>
+      </div>
+
+      <div class="faq-container">
+        <!-- Q1 -->
+        <div class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span>What courses does DELTA offer?</span>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              DELTA offers Spoken English, English Grammar, IELTS Preparation, Cadet College Entry Preparation (for JVT, BRC, etc.), Science Subjects (Physics, Chemistry, Biology, Mathematics), Calligraphy, and the upcoming DIT (Diploma in Information Technology) program.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span>Where is DELTA Academy located?</span>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              DELTA Academy is conveniently located Near Police Station, Kharan, Balochistan.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span>Which computer program is starting soon?</span>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              The DIT (Diploma in Information Technology) program—covering computer literacy, Microsoft Office, touch typing, internet skills, and office automation—is starting soon.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span>How can I contact DELTA Academy?</span>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              You can contact DELTA Academy by phone at 0332-2277316 or 0333-7991998, via WhatsApp (+92 332 2277316), or through our official Facebook page.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       11. CONTACT / FOOTER SECTION
+       ========================================== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info & Address -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/images/delta-logo.png" alt="DELTA Logo" />
+            <div>
+              <div class="footer-brand-title">DELTA ACADEMY</div>
+              <div class="footer-brand-sub">Kharan, Balochistan</div>
+            </div>
+          </div>
+          <p class="footer-brand-desc">
+            DELTA English Language & Computer Academy provides quality, affordable, and practical education to empower students in Kharan and surrounding areas.
+          </p>
+          <div class="contact-item address-item">
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span>Near Police Station, Kharan, Balochistan</span>
+          </div>
+        </div>
+
+        <!-- Contact Buttons -->
+        <div class="footer-actions-col">
+          <h4 class="footer-title">Connect & Contact</h4>
+          <div class="contact-buttons-stack">
+            <!-- Phone 1 Call Button -->
+            <a href="tel:+923322277316" class="btn btn-phone">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>Call 0332-2277316</span>
+            </a>
+
+            <!-- Phone 2 Call Button -->
+            <a href="tel:+923337991998" class="btn btn-phone-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>Call 0333-7991998</span>
+            </a>
+
+            <!-- WhatsApp Chat Button -->
+            <a href="https://wa.me/923322277316?text=Hello%20DELTA%20Academy%2C%20I%20would%20like%20to%20get%20information%20about%20the%20courses." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-footer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>Chat on WhatsApp</span>
+            </a>
+
+            <!-- Facebook Page Button -->
+            <a href="https://www.facebook.com/share/1AyhndgGBG/" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <span>Facebook Page</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© DELTA English Language & Computer Academy. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <!-- Main JavaScript Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>

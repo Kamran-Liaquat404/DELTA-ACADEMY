@@ -1,0 +1,6 @@
+{
+  "name": "DELTA Academy",
+  "description": "Official website for DELTA English Language & Computer Academy in Kharan, Balochistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
